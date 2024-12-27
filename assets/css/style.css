@@ -771,129 +771,111 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         10. Contact
 --------------------------------------*/
-.contact {
-    background: #ba7544;
-    padding: 50px 0 100px;
+.container {
+    max-width: 1170px;
+    margin: auto;
 }
 
-.single-contact-box {padding-top: 100px;}
-.contact-form  .form-group {
-    margin-bottom: 20px;
-    
-}
-.contact-form .form-control {
-    padding: 25px;
-    font-size: 14px;
-    border: 1px solid #fff;
-    border-radius: 0px;
-    box-shadow: none;
-    outline: 0!important;
-    background: #fff;
-    color: #000001;
-    resize: none;
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-/*--contct button--*/
-.contact-form .single-contact-btn {
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    height:50px;
-    text-transform:capitalize;
-    margin-top: 3px;
-    background: #8e5125;
-    border: 1px solid #8e5125;
-    cursor:pointer;
-    box-shadow: 0 5px 20px rgba(0,0,0,.2);
-     -webkit-transition: .5s; 
-    -moz-transition:.5s; 
-    -ms-transition:.5s; 
-    -o-transition:.5s;
-    transition: .5s;
-}
-.contact-form .single-contact-btn .contact-btn ,
-.contact-form .single-contact-btn .contact-btn:focus {
-    margin-top:0px;
-    outline: 0 !important;
-    border:0;
-    color: #fff;
-    border-radius: 0px;
-    font-size:14px;
-    -webkit-transition: .5s; 
-    -moz-transition:.5s; 
-    -ms-transition:.5s; 
-    -o-transition:.5s;
-    transition: .5s;
-    
-}
-.single-contact-btn:hover{
-    background: #693815;
-    border: 1px solid #8e5125;
-    box-shadow: 0 5px 20px rgba(0,0,0,.2);
-}
-.contact h2{
-    background-color: #fff;
+ul {
+    list-style: none;
 }
 
-/*--contct button--*/
-
-/* contact-adress */
-.contact-add-head h3 {
-    font-size:  24px;
-    font-weight: bold;
-    color:  #693815;
-    border-bottom: 2px solid #000001;
+.footer {
+    background-color: #9c6136;
+    padding: 70px 0;
 }
-.contact-add-head p {
-    font-size:  16px;
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
     text-transform: capitalize;
-    color:  #693815;
-    font-weight:  300;
-    margin-top:  6px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
 }
-/* contact-adress */
 
-/*.contact-add-info */
-.contact-add-info { margin: 42px 0 52px;}
-.single-contact-add-info h3 {
-    color:  #693815;
-    font-weight:  500;
-    border-bottom: 2px solid #01030a;
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #000;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
 }
-.single-contact-add-info p {
-    color:  #693815;
-    font-size:  16px;
-    margin-top:  18px;
-}
-.single-contact-add-info {
-    margin-bottom:  26px;
-}
-/*.contact-add-info */
 
-/*hm-foot-icon*/
-.hm-foot-icon {
-   
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
 }
-.hm-foot-icon ul li{float:left;}
-.hm-foot-icon ul li>a {
-    color: #000;
-    margin-right:18px;
-    -webkit-transition: .3s; 
-    -moz-transition:.3s; 
-    -ms-transition:.3s; 
-    -o-transition:.3s;
-    transition: .3s;
-}
-.hm-foot-icon ul li>a:hover{
-    color: #8e5125;
-}/*hm-foot-icon*/
 
+.footer-col ul li a {
+    font-size: 16px;
+    /* text-transform: capitalize; */
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #9c6136;
+    background-color: #ffffff;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+.footer-copyright{
+    background-color: #794823;
+}
 .hm-footer-copyright p{
-    color: #66709c;
+    color: #fff;
     text-transform: capitalize;
     padding: 38px 0;
+   
 }
-.hm-footer-copyright p a {color: #888ea5;}
+.hm-footer-copyright p a {color: #000; font-size: larger; font-weight: bolder;}
 /*===============================
     Scroll Top
 ===============================*/
