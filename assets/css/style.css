@@ -343,6 +343,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #8e5125;}
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
 }
+.single-about-txt p a{
+    font-size: 16px;
+    color: #4f2c12;
+}
 .single-about-add-info {
     margin: 35px 0;
 }
@@ -867,7 +871,7 @@ ul {
 }
 
 .footer-copyright{
-    background-color: #794823;
+    background-color: #633817;
 }
 .hm-footer-copyright p{
     color: #fff;
