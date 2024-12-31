@@ -695,6 +695,55 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .single-profile:hover .profile-icon-name,.single-profile:hover .profile-txt a>i{color: #fff;}
 .single-profile:hover .profile-border {border:transparent;}
+/* For tablets */
+@media (max-width: 768px) {
+    .profiles-content .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .profiles-content .col-sm-3 {
+        flex: 1 1 45%;
+        max-width: 45%;
+        margin: 5px;
+    }
+
+    .single-profile {
+        height: 120px;
+    }
+
+    .single-profile a img {
+        width: 60px;
+        height: 40px;
+    }
+
+    .profile-icon-name {
+        font-size: 14px;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    .profiles-content .col-sm-3 {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin: 5px 0;
+    }
+
+    .single-profile {
+        height: 100px;
+    }
+
+    .single-profile a img {
+        width: 50px;
+        height: 35px;
+    }
+
+    .profile-icon-name {
+        font-size: 12px;
+    }
+}
 /*-------------------------------------
         9. Portfolio
 --------------------------------------*/
